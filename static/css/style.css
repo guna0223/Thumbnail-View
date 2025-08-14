@@ -68,17 +68,19 @@ body {
         .popup:target {
             display: flex;
         }
-    }
-}
 
-@media screen and (max-width:600px) {
-    h1 {
-        font-size: 1px;
-        text-align: center;
+        @media screen and (max-width:700px) {
+            h1 {
+                font-size: 1px;
+                text-align: center;
+            }
+
+            .image {
+
+                grid-template-columns: auto auto;
+            }
+
+        }
     }
 
-    .image{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
 }
