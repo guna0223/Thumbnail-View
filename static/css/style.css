@@ -63,13 +63,19 @@ body {
                 width: 80;
                 border-radius: 9px;
             }
+            @media screen and (max-width:450px) {
+                img{
+                    height: 600px;
+                    width: 400px;
+                }
+            }
         }
 
         .popup:target {
             display: flex;
         }
 
-        @media screen and (max-width:700px) {
+        @media screen and (max-width:450px) {
             h1 {
                 font-size: 1px;
                 text-align: center;
